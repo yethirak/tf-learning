@@ -36,3 +36,6 @@ terraform.rc
 
 # Ignore Locks
 .terraform.lock.hcl
+
+# Ignore local outputs
+**/output/*
